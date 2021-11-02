@@ -1,0 +1,3 @@
+﻿  Ficha02_07.cpp
+C:\Users\gonca\OneDrive\the War Room\ISEC_POO\FichasTrabalho\Ficha02\Ficha02_07\Ficha02_07.cpp(36,10): error C2374: 'msg1': redefinition; multiple initialization
+C:\Users\gonca\OneDrive\the War Room\ISEC_POO\FichasTrabalho\Ficha02\Ficha02_07\Ficha02_07.cpp(22): message : see declaration of 'msg1'
