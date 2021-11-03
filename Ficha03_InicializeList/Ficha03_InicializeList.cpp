@@ -3,12 +3,17 @@
 #include <iostream>
 #include <vector>
 using namespace std;
+
 class MyNumber
 {
+private:
+    vector<int> mVec;
+    
 public:
     MyNumber(const initializer_list<int>& v) {
         for (auto itm : v) {   // The auto keyword specifies that the type of the variable that is being declared will be automatically deducted from its initializer
             mVec.push_back(itm);
+          
             
         }
     }
@@ -18,16 +23,45 @@ public:
             cout << itm << " " ;
             
         }
-        cout << "\n" << mVec.size();
+       // cout << "\n" << mVec.size();
     }
-private:
-    vector<int> mVec;
+
 };
+
+class MyString
+{
+private:
+    vector<string> mStringVec;
+
+public:
+    MyString( const initializer_list<string>& v) {
+        for (auto itm : v) {   // The auto keyword specifies that the type of the variable that is being declared will be automatically deducted from its initializer
+            mStringVec.push_back(itm);
+
+
+        }
+    }
+
+    void print() {
+        for (auto itm : mStringVec) {
+            cout << itm << " ";
+
+        }
+        //cout << "\n" << mStringVec.size();
+    }
+
+};
+
+
 
 int main()
 {
-    MyNumber m = { 1, 2, 3, 4,5,6 ,77,77 };
+    MyNumber m = { 1,2 };
+
+    MyString s = { "Rtp1","Rtp2" };
     m.print();  // 1 2 3 4
+
+    s.print();
     
     return 0;
 }
