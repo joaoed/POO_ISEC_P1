@@ -1,0 +1,2 @@
+C:\Users\gonca\source\repos\ReadStringsIstringstream\Debug\ReadStringsIstringstream.exe
+C:\Users\gonca\source\repos\ReadStringsIstringstream\Debug\ReadStringsIstringstream.pdb
