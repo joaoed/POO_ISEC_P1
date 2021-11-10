@@ -1,0 +1,4 @@
+C:\Users\gonca\OneDrive\the War Room\ISEC_POO\FichasTrabalho\Ficha03\ArrayObjects\Debug\ArrayObjects.exe
+C:\Users\gonca\OneDrive\the War Room\ISEC_POO\FichasTrabalho\Ficha03\ArrayObjects\Debug\ArrayObjects.pdb
+C:\Users\gonca\OneDrive\the War Room\ISEC_POO\FichasTrabalho\Ficha03\VetorObjects\Debug\VetorObjects.exe
+C:\Users\gonca\OneDrive\the War Room\ISEC_POO\FichasTrabalho\Ficha03\VetorObjects\Debug\VetorObjects.pdb
